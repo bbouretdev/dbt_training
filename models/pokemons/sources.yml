@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: dbt_training
+    schema: pokemon
+    tables:
+      - name: pokemon
+        description: "Basic data of each Pokemon"
+      - name: pokemon_types
+        description: "Types of each Pokemon and its slot"
+      - name: types
+        description: "Basic data of each Type"

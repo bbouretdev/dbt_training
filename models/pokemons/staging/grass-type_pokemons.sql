@@ -1,0 +1,1 @@
+{{ get_pokemons_by_type_view('grass') }}
